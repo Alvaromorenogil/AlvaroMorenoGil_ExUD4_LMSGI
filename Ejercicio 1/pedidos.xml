@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <sucursal codigo="A1111111">        
+        <trabajador>Alvaro Moreno Gil</trabajador>
+        <direccion>C/Virgen del Carmen, 8</direccion>
+        <direccion>C/Ebro, 4</direccion>
+        <fecha>14-02-2022</fecha>
+        <observaciones>urgente</observaciones>
+        <articulo codigo="AAA-111">
+            <unidades>1</unidades>
+            <precio>15,00</precio>
+            <observaciones>Procucto frágil</observaciones>
+            <plazoRevision>10</plazoRevision>
+        </articulo>
+        <articulo codigo="AAA-222">
+            <unidades>5</unidades>
+            <precio>27,00</precio>
+            <observaciones>Empaquetar todo en un mismo paquete</observaciones>
+            <plazoRevision>20</plazoRevision>
+        </articulo>       
+    </sucursal>
+
+    <sucursal codigo="B2222222">        
+        <trabajador>Antonio Juan Rios Fernandez</trabajador>
+        <direccion>C/Amapola, 34</direccion>
+        <fecha>10-02-2022</fecha>
+        <observaciones>incompleto</observaciones>
+        <articulo codigo="BBB-222">
+            <unidades>6</unidades>
+            <precio>34,00</precio>
+            <observaciones>Producto pesado</observaciones>
+            <plazoRevision>4</plazoRevision>
+        </articulo>       
+    </sucursal>
+</pedidos>
